@@ -12,6 +12,7 @@ pip install -r requirements.txt
 
 
 You need a Hugging Face access token to run properly.
+Replace the placeholder in the .py files with your own token:
 
 ```
 hf_token = ###########
