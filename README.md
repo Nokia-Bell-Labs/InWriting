@@ -6,7 +6,7 @@
 pip install -r requirements.txt
 
 
-Hugging Face Access Token
+### Hugging Face Access Token
 
 This project requires a Hugging Face access token to run properly.
 
@@ -18,4 +18,5 @@ Configure the token in the project
 
 Then replace the placeholder in the code files:
 
+```bash
 hf_token = "################"
