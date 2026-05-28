@@ -1,22 +1,7 @@
-## Environment Setup
+# Thinking Before Constraining: A Unified Decoding Framework for Large Language Models
 
-### Install dependencies
+This repository contains the implementation of the paper *Thinking Before Constraining: A Unified Decoding Framework for Large Language Models*.
 
-```bash
-pip install -r requirements.txt
+The work proposes a hybrid decoding strategy that combines the flexibility of natural language generation with the reliability of structured outputs by decoupling reasoning from formatting.
 
-
-### Hugging Face Access Token
-
-This project requires a Hugging Face access token to run properly.
-
-Steps to get a token
-Create an account on Hugging Face: https://huggingface.co/
-Generate an access token.
-Copy your token.
-Configure the token in the project
-
-Then replace the placeholder in the code files:
-
-```bash
-hf_token = "################"
+More details about the paper can be found here: https://arxiv.org/abs/2601.07525
