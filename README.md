@@ -40,8 +40,19 @@ experiment("base", batch_size=16)
 ```
 
 Once the configurations are set, execute the script from your terminal:
+```
+> python task_name.py
+```
 
-Run code:
-
-python task_name.py 
+## Reference
+If you find our work helpful, please cite as:
+```
+bibtex
+@article{nguyen2026thinking,
+  title={Thinking Before Constraining: A Unified Decoding Framework for Large Language Models},
+  author={Nguyen, Ngoc Trinh Hung and Silva, Alonso and Zumot, Laith and Tupikina, Liubov and Aghasaryan, Armen and Alam, Mehwish},
+  journal={arXiv preprint arXiv:2601.07525},
+  year={2026}
+}
+```
 
