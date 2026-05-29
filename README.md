@@ -21,7 +21,7 @@ hf_token = ###########
 ```
 ## Reproduce Results
 
-Set up the arguments of your desired experiment in the .py depend on the task
+Set up the arguments for your desired experiment in the task-dependent .py file.
 
 ### InWriting Reproduction: 
 
