@@ -27,9 +27,9 @@ Set up the arguments for your desired experiment in the task-dependent .py file.
 
 For each task, ensure the following configurations are set in your execution script (.py)
 
-Schema: From the task class schema, set only final_answer as the extractor variable.
+Schema: From the task class schema, set only ```final_answer``` as the extractor variable.
 
-Processor: Set the trigger tokens to match the EOS and PAD tokens:
+Processor: Set the trigger tokens to match the ```EOS``` and ```PAD``` tokens:
 ```
 trigger_token_ids = [tokenizer.eos_token_id, tokenizer.pad_token_id]
 ```
